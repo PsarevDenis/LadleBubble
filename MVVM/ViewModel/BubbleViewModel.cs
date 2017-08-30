@@ -629,6 +629,7 @@ namespace LadleBubble.MVVM.ViewModel
                         {
                             for (int j = 0; j < ListKoltco[i].ListBubble.Count; j++)
                             {
+                                //TODO: восстановить прежнюю рабочую версию
                                 Bubble = ListKoltco[i].ListBubble[j];
                                 Bubble = GetNewBubbleResult(Bubble);
 
